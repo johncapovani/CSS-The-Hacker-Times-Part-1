@@ -4,10 +4,11 @@
 ul {
     list-style-type: none;
     margin: 0;
+    margin-top: -30px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    text-align: center;
+    justify-content: center;
 }
 
 li {
@@ -32,6 +33,7 @@ h1 {
 
     text-align: center;
     font-family: Abril Fatface;
+    padding-bottom: 10px;
 
 }
 
@@ -71,5 +73,16 @@ main p {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
+}
 
+.nav-lock {
+
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    background-color: white;
 }
